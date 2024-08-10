@@ -1,210 +1,235 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    max-width: 1900px;
+* {
+  margin: 0px;
+  padding: 0px;
+  max-width: 1900px;
 }
 /* banner starting */
-header{
-    background-color: pink;
-    
+header {
+  background-color: pink;
 }
-.hcontainer{
-    margin:0px auto;
-    /* border: 2px solid black; */
-    max-width: 1440px;
-    padding: 50px 0px 0px 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    max-height: 797px;
-    
+.hcontainer {
+  margin: 0px auto;
+  /* border: 2px solid black; */
+  max-width: 1440px;
+  padding: 50px 0px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-height: 797px;
 }
-.himg{
-    height: 800px;
+.himg {
+  height: 800px;
 }
-.hdec{
-    color: gray;
-    width: 600px;
-    font-size: 18px;
-    margin: 20px 0px 20px 0px;
+.hdec {
+  color: gray;
+  width: 600px;
+  font-size: 18px;
+  margin: 20px 0px 20px 0px;
 }
-#htitle{
-    color: rgb(32, 32, 32);
-    font-size: 80px;
-    font-weight: bolder;
+#htitle {
+  color: rgb(32, 32, 32);
+  font-size: 80px;
+  font-weight: bolder;
 }
-.hbtn{
-    font-size: 20px;
-    padding: 20px 40px;
-    color: white;
-    background-color: rgb(219, 53, 81);
-    border: none;
-    border-radius: 10px;
+.hbtn {
+  font-size: 20px;
+  padding: 20px 40px;
+  color: white;
+  background-color: rgb(219, 53, 81);
+  border: none;
+  border-radius: 10px;
 }
-.hbtn:hover{
-    cursor: pointer;
-    background-color: rgb(247, 106, 106);
+.hbtn:hover {
+  cursor: pointer;
+  background-color: rgb(247, 106, 106);
 }
 /* banner ending */
 
 /* section flowers kinds starting */
 
-.flower-kinds{
-    text-align: center;
-    margin-top: 180px;
+.flower-kinds {
+  text-align: center;
+  margin-top: 180px;
 }
-.kindscontainer{
-    max-width: 1440px;
-    padding: 50px 240px 140px 240px;
-    display: flex;
-    justify-content: space-between;
-    
+.kindscontainer {
+  max-width: 1440px;
+  padding: 50px 240px 140px 240px;
+  display: flex;
+  justify-content: space-between;
 }
-.kinds{
-   text-align: center;
+.kinds {
+  text-align: center;
 }
-.king{
-    border: none;
-
+.king {
+  border: none;
 }
-#stf{
-    width: 315px;
-    height: 430px;
-    background-color: rgb(240, 206, 211);
-    padding: 110px 70px 0px 70px;
-    border-radius: 300px 300px 0px 0px;
+#stf {
+  width: 315px;
+  height: 430px;
+  background-color: rgb(240, 206, 211);
+  padding: 110px 70px 0px 70px;
+  border-radius: 300px 300px 0px 0px;
 }
-#ndf{
-    width: 370px;
-    height: 370px;
-    background-color: rgb(188, 236, 236);
-    padding: 120px 45px 50px 45px;
-    border-radius: 300px 300px 0px 0px;
+#ndf {
+  width: 370px;
+  height: 370px;
+  background-color: rgb(188, 236, 236);
+  padding: 120px 45px 50px 45px;
+  border-radius: 300px 300px 0px 0px;
 }
-#rdf{
-    width: 315px;
-    height: 470px;
-    background-color: rgb(243, 243, 201);
-    padding: 70px 70px 0px 70px;
-    border-radius: 300px 300px 0px 0px;
+#rdf {
+  width: 315px;
+  height: 470px;
+  background-color: rgb(243, 243, 201);
+  padding: 70px 70px 0px 70px;
+  border-radius: 300px 300px 0px 0px;
 }
-.kdec{
-    font-size: 18px;
-    margin: 20px 0px 50px 0px;
+.kdec {
+  font-size: 18px;
+  margin: 20px 0px 50px 0px;
 }
-.ftitle{
-    font-size: 40px;
+.ftitle {
+  font-size: 40px;
 }
-.fidec{
-    font-size: 24px;
+.fidec {
+  font-size: 24px;
 }
-.hr{
-    background-color: black;
-    margin-left: 160px;
-    width: 140px;
-    border: none;
-    height: 0.2px;
+.hr {
+  background-color: black;
+  margin-left: 160px;
+  width: 140px;
+  border: none;
+  height: 0.2px;
 }
 
 /* extended */
 
-.extended-container{
-    width: 1440px;
-    background-color: rgb(238, 237, 237);
-    margin: 130px auto;
-    height: 320px;
-    border: 1px solid white;
-    /* align-items: center; */
-    /* border: none; */
+.extended-container {
+  width: 1440px;
+  background-color: rgb(238, 237, 237);
+  margin: 130px auto;
+  height: 320px;
+  border: 1px solid white;
+  /* align-items: center; */
+  /* border: none; */
 }
-.nest-container{
-    display: flex;
-    justify-content: space-around;
-    margin: 90px 175px;
-    /* align-items: center; */
+.nest-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 90px 175px;
+  /* align-items: center; */
 }
-.exdec{
-    margin-top: 24px;
-    color: rgb(100, 99, 99);
-    font-size: 24px;
+.exdec {
+  margin-top: 24px;
+  color: rgb(100, 99, 99);
+  font-size: 24px;
 }
 /* kinds of flower end  */
 
 /* for sale start  */
-#sale-section{
-    background-color: lightpink;
+#sale-section {
+  background-color: lightpink;
 }
-.forsale-container{
-    /* background-color: black; */
-    width: 1440px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0px auto;
-    text-align: center;
-
+.forsale-container {
+  /* background-color: black; */
+  width: 1440px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px auto;
+  text-align: center;
 }
-.simg{
-    width: 320px;
-    height: 420px;
+.simg {
+  width: 320px;
+  height: 420px;
 }
 /*............... for sale ending  */
 
-
 /* .............social sectioin starting  */
-#social-section{
-    text-align: center;
+#social-section {
+  text-align: center;
 }
-.socialimg-container{
-    width: 1440px;
-    display:flex;
-    justify-content: space-between;
-    margin: 0px auto;
+.socialimg-container {
+  width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto;
 }
 
-.so-img{
-    width: 342px;
-    height: 396px;
+.so-img {
+  width: 342px;
+  height: 396px;
 }
-.sdec{
-    color: gray;
-    width: 300px;
-    margin: auto;
-    margin-bottom: 50px;
+.sdec {
+  color: gray;
+  width: 300px;
+  margin: auto;
+  margin-bottom: 50px;
 }
-.stitle{
-    margin-top: 130px;
+.stitle {
+  margin-top: 130px;
 }
 
 /* .............social section ending */
 
-.search-container{
-    background-image:url(/images/Rectangle\ 9.png);
-    width: 1440px;
-    height: 450px;
-    margin: 128px auto;
-    align-items: center;
+.search-container {
+  background-image: url(/images/Rectangle\ 9.png);
+  width: 1440px;
+  height: 449px;
+  margin: 128px auto;
+  align-items: center;
+  text-align: center;
+}
+#search {
+  padding-top: 120px;
+  font-size: 40px;
+}
+#search-dec {
+  padding-top: 16px;
+  padding-bottom: 50px;
+  font-size: 18;
+}
+#input {
+  width: 685px;
+  height: 64px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 10px;
+  font-size: 20px;
+  padding-left: 15px;
+}
+.inputcontainer {
+  align-items: center;
+}
+/* ..................search section ending  */
+
+/* >>>>>>>>>>>>>>>footer starting >>>>>>>>>>>>>  */
+footer{
     text-align: center;
+    background-color: rgb(19, 18, 18);
+    height: 450px;
+    width: 1900px;
 }
-#search{
-    padding-top: 120px;
-    font-size: 40px;
+span{
+    color: rgb(252, 24, 157);
 }
-#search-dec{
-    padding-top: 16px;
-    padding-bottom: 50px;
-    font-size: 18;
+
+#fl{
+    padding-top: 128px;
+    padding-bottom: 24px;
+    font-size: 48px;
+    color: white;
 }
-#input{
-    width: 685px;
-    height: 64px;
-    border-radius: 10px;
-    border: none;
-    margin-right: 10px;
-    font-size: 20px;
-    padding-left: 15px;
+#flp{
+    margin: auto;
+    width: 600px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 32px;
 }
-.inputcontainer{
-    align-items: center;
+copyright{
+    color: gray;
+    font-size: 16px;
 }
+/* footer complete  */
