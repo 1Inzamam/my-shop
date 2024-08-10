@@ -1,16 +1,20 @@
 *{
     margin: 0px;
     padding: 0px;
+    max-width: 1900px;
 }
 /* banner starting */
 header{
     background-color: pink;
-    max-width: 1900px;
+    
 }
 .hcontainer{
-    padding: 50px 240px 0px 240px;
+    margin:0px auto;
+    /* border: 2px solid black; */
+    max-width: 1440px;
+    padding: 50px 0px 0px 0px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     
     max-height: 797px;
@@ -20,20 +24,23 @@ header{
     height: 800px;
 }
 .hdec{
-    width: 300px;
-    font-size: 15px;
+    color: gray;
+    width: 600px;
+    font-size: 18px;
     margin: 20px 0px 20px 0px;
 }
 #htitle{
-    font-size: 60px;
+    color: rgb(32, 32, 32);
+    font-size: 80px;
+    font-weight: bolder;
 }
 .hbtn{
-    font-size: 15px;
-    padding: 5px 10px;
+    font-size: 20px;
+    padding: 20px 40px;
     color: white;
     background-color: rgb(219, 53, 81);
     border: none;
-    border-radius: 3px;
+    border-radius: 10px;
 }
 /* banner ending */
 
@@ -41,32 +48,43 @@ header{
 
 .flower-kinds{
     text-align: center;
-    max-width: 600px;
-    margin: 0px auto;
 }
 .kindscontainer{
+    border: 2px solid black;
+    background-color: gray;
+    max-width: 1440px;
+    padding: 50px 240px 140px 240px;
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: space-between;
+    
 }
 .kinds{
    text-align: center;
 }
 .king{
-    padding: 30px 20px 0px 20px;
-    height: 150px;
-    width: 110px;
     border: none;
-    border-radius: 75px 75px 0px 0px;
-    margin-left: 0px;
+
 }
 #stf{
+    width: 315px;
+    height: 430px;
     background-color: rgb(240, 206, 211);
+    padding: 110px 70px 0px 70px;
+    border-radius: 300px 300px 0px 0px;
 }
 #ndf{
+    width: 370px;
+    height: 370px;
     background-color: rgb(188, 236, 236);
+    padding: 120px 45px 50px 45px;
+    border-radius: 300px 300px 0px 0px;
 }
 #rdf{
+    width: 315px;
+    height: 470px;
     background-color: rgb(243, 243, 201);
+    padding: 70px 70px 0px 70px;
+    border-radius: 300px 300px 0px 0px;
 }
 .kdec{
     font-size: 15px;
