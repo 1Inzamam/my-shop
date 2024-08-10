@@ -42,6 +42,10 @@ header{
     border: none;
     border-radius: 10px;
 }
+.hbtn:hover{
+    cursor: pointer;
+    background-color: rgb(247, 106, 106);
+}
 /* banner ending */
 
 /* section flowers kinds starting */
@@ -128,14 +132,79 @@ header{
 /* kinds of flower end  */
 
 /* for sale start  */
-
-.forsale-container{
+#sale-section{
     background-color: lightpink;
+}
+.forsale-container{
+    /* background-color: black; */
+    width: 1440px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    margin: 0px auto;
+    text-align: center;
 
 }
 .simg{
     width: 320px;
     height: 420px;
+}
+/*............... for sale ending  */
+
+
+/* .............social sectioin starting  */
+#social-section{
+    text-align: center;
+}
+.socialimg-container{
+    width: 1440px;
+    display:flex;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+.so-img{
+    width: 342px;
+    height: 396px;
+}
+.sdec{
+    color: gray;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.stitle{
+    margin-top: 130px;
+}
+
+/* .............social section ending */
+
+.search-container{
+    background-image:url(/images/Rectangle\ 9.png);
+    width: 1440px;
+    height: 450px;
+    margin: 128px auto;
+    align-items: center;
+    text-align: center;
+}
+#search{
+    padding-top: 120px;
+    font-size: 40px;
+}
+#search-dec{
+    padding-top: 16px;
+    padding-bottom: 50px;
+    font-size: 18;
+}
+#input{
+    width: 685px;
+    height: 64px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 10px;
+    font-size: 20px;
+    padding-left: 15px;
+}
+.inputcontainer{
+    align-items: center;
 }
