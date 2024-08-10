@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* banner starting */
+.hcontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 100px;
+    background-color: pink;
+    max-height: 297px;
+}
+.himg{
+    height: 300px;
+}
+.hdec{
+    width: 300px;
+    font-size: 15px;
+    margin: 20px 0px 20px 0px;
+}
+#htitle{
+    font-size: 60px;
+}
+.hbtn{
+    font-size: 15px;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(219, 53, 81);
+    border: none;
+    border-radius: 3px;
+}
+/* banner ending */
+
+/* section flowers kinds starting */
+
+.kinds{
+   
+}
+.king{
+    padding: 30px 20px 0px 20px;
+    height: 150px;
+    width: 110px;
+    border: none;
+    border-radius: 75px 75px 0px 0px;
+}
+#stf{
+    background-color: rgb(240, 206, 211);
+}
+#ndf{
+    background-color: rgb(188, 236, 236);
+}
+#rdf{
+    background-color: rgb(243, 243, 201);
+}
