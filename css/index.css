@@ -48,10 +48,9 @@ header{
 
 .flower-kinds{
     text-align: center;
+    margin-top: 180px;
 }
 .kindscontainer{
-    border: 2px solid black;
-    background-color: gray;
     max-width: 1440px;
     padding: 50px 240px 140px 240px;
     display: flex;
@@ -87,6 +86,56 @@ header{
     border-radius: 300px 300px 0px 0px;
 }
 .kdec{
-    font-size: 15px;
-    margin: 20px;
+    font-size: 18px;
+    margin: 20px 0px 50px 0px;
+}
+.ftitle{
+    font-size: 40px;
+}
+.fidec{
+    font-size: 24px;
+}
+.hr{
+    background-color: black;
+    margin-left: 160px;
+    width: 140px;
+    border: none;
+    height: 0.2px;
+}
+
+/* extended */
+
+.extended-container{
+    width: 1440px;
+    background-color: rgb(238, 237, 237);
+    margin: 130px auto;
+    height: 320px;
+    border: 1px solid white;
+    /* align-items: center; */
+    /* border: none; */
+}
+.nest-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 90px 175px;
+    /* align-items: center; */
+}
+.exdec{
+    margin-top: 24px;
+    color: rgb(100, 99, 99);
+    font-size: 24px;
+}
+/* kinds of flower end  */
+
+/* for sale start  */
+
+.forsale-container{
+    background-color: lightpink;
+    display: flex;
+    justify-content: space-around;
+
+}
+.simg{
+    width: 320px;
+    height: 420px;
 }
